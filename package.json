@@ -1,0 +1,51 @@
+{
+  "name": "sanderg-starter-wp",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby and WordPress",
+  "version": "0.1.0",
+  "author": "Sander Geraedts <hallo@sanderg.nl>",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.25.1",
+    "gatsby-image": "^2.4.21",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.5.1",
+    "gatsby-plugin-offline": "^3.3.1",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sharp": "^2.7.0",
+    "gatsby-plugin-styled-components": "^3.3.12",
+    "gatsby-source-filesystem": "^2.4.0",
+    "gatsby-source-graphql": "^2.7.6",
+    "gatsby-transformer-sharp": "^2.5.21",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2",
+    "cross-env": "^7.0.2",
+    "esm": "^3.2.25"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=\"-r esm\" gatsby build",
+    "develop": "cross-env NODE_OPTIONS=\"-r esm\" gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
